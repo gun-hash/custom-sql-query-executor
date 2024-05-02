@@ -1,0 +1,60 @@
+/* App.css */
+
+.app-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+    background-color: #f9f9f9;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px 10px;
+    margin-right: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    /* Removes the default focus outline */
+}
+
+input:focus {
+    border-color: #0056b3;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
